@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: skyblue;
+  padding: 0.3rem;
+
+}
+
+.navbar ul li {
+
+  list-style: none;
+  display: inline-block;
+  margin: 0 0.5rem;
+
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(1, 0, 0)
+}
+
+
+.signup-form {
+  margin-left: 30%;
+  margin-top: 2.5rem;
+  width: 1000px;
+
+}
+
+.signup-form input {
+  display: block;
+  border: 1px solid skyblue;
+  padding: 0.6rem;
+  width: 300px;
+  margin-bottom: 1rem;
+}
+
+.login-form {
+  margin-left: 30%;
+  margin-top: 2.5rem;
+  width: 1000px;
+
+}
+
+.login-form input {
+  display: block;
+  border: 1px solid skyblue;
+  padding: 0.6rem;
+  width: 300px;
+  margin-bottom: 1rem;
+}
+
+.addproduct-form {
+  margin-left: 30%;
+  margin-top: 2.5rem;
+  width: 1000px;
+
+}
+
+.addproduct-form input {
+  display: block;
+  border: 1px solid skyblue;
+  padding: 0.6rem;
+  width: 300px;
+  margin-bottom: 1rem;
+}
+.update-form {
+  margin-left: 30%;
+  margin-top: 2.5rem;
+  width: 1000px;
+
+}
+
+.update-form input {
+  display: block;
+  border: 1px solid skyblue;
+  padding: 0.6rem;
+  width: 300px;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  border: 2px solid white;
+  border-radius: 0.4rem;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+
+}
+
+
+.card {
+  border: 2px solid rgb(242, 242, 245);
+  border-radius: 0.4rem;
+  background-color: skyblue;
+  color: black;
+  width: 25%;
+  text-align: center;
+  margin: 0.9rem;
+  padding: 0.4rem;
+  transition: 0.4s;
+
+}
+
+.card:hover {
+  box-shadow: 0 0 10px 0 grey;
+  transform: translateY(-7px)
+}
+
+.profile {
+  border: 2px solid rgb(242, 242, 245);
+  border-radius: 0.4rem;
+  background-color: skyblue;
+  color: black;
+  
+  text-align: center;
+  margin: 0.9rem;
+  padding: 1rem;
+  transition: 0.4s;
+}
+
+.profile:hover {
+  box-shadow: 0 0 10px 0 grey;
+  transform: translateY(-7px)
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
